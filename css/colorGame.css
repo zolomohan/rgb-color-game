@@ -1,0 +1,85 @@
+body{
+	background-color: #232323;
+	margin: 0;
+
+}
+
+.tile{
+	float: left;
+	width: 30%;
+	padding-bottom: 30%;
+	background-color: purple;
+	margin: 1.66%;
+	border-radius: 30px;
+	transition: background 0.2s linear;
+	--webkit-transititon: background 0.2s linear;
+	--moz-transition: background 0.2s linear;
+}
+
+
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	padding: 1% 0;
+	font-family: 'Asap', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	transition: background 0.2s linear;
+	line-height: 50px;
+	--webkit-transititon: background 0.2s linear;
+	--moz-transition: background 0.2s linear;
+}
+
+#clickStatus{
+	display: inline-block;
+	width: 18%;
+	transition: all 0.2s linear;
+	--webkit-transititon: background 0.2s linear;
+	--moz-transition: background 0.2s linear;
+}
+
+#question{
+	font-size: 2em;
+}
+
+#header-stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+button{
+	border: 0px;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1.5px;
+	font-size: 13px;
+	transition: all 0.1s linear;
+	--webkit-transititon: all 0.1s linear;
+	--moz-transition: all 0.1s linear;
+	font-family: 'Righteous', cursive;
+	outline: none;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+	transition: all 0.3s linear;
+}
